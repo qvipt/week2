@@ -67,6 +67,10 @@ li {
     display: inline-block;
 }
 
+.news__item{
+    width: 100%;
+}
+
 .rate__list, .rate__item {
     display: inline-block;
 }
@@ -90,5 +94,4 @@ li {
     height: 72px;
     width: 72px;
     border-radius: 50%;
-    margin: auto;
 }
