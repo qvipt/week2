@@ -71,6 +71,21 @@ li {
     width: 100%;
 }
 
+.news__date {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.news__title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.news__text {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
 .rate__list, .rate__item {
     display: inline-block;
 }
