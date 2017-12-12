@@ -1,0 +1,94 @@
+body {
+    font-family: roboto, sans-serif;§§
+}
+
+.header {
+    height: 77px;
+    background: #4b73b5;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1100px;
+}
+
+.logo, .contacts {
+    display: inline-block;
+}
+
+.contacts__phone {
+    color: #ffffff;
+    height: 21px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contacts__schedule {
+    color: rgba(255, 255, 255, .7);
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.nav__item-icon, .nav__item-link {
+    display: inline-block;
+}
+
+.nav__item-icon {
+    width: 17px;
+    height: 18px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.maincontent__image {
+    width: 901px;
+    height: 299px;
+    background: url("../img/photo.png") center center no-repeat;
+}
+
+.nav, .maincontent__image {
+    display: inline-block;
+}
+
+.nav__item-link {
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.caption {
+    font-size: 49px;
+}
+
+.news__image, .news__block{
+    display: inline-block;
+}
+
+.rate__list, .rate__item {
+    display: inline-block;
+}
+
+.rate__itme-title {
+    font-size: 10.78px;
+    font-weight: bold;
+}
+
+.rate__item-desc, .rate__item-desc-lis {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.rate__item-price {
+    font-size: 53.89px;
+}
+
+.rate__item-icon {
+    background: #4b73b5;
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+    margin: auto;
+}
