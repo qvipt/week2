@@ -81,7 +81,7 @@ body {
     font-size: 49px;
 }
 
-.news__item, news__block {
+.news__image, .news__block {
     display: inline-block;
 }
 
