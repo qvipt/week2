@@ -81,7 +81,7 @@ body {
     font-size: 49px;
 }
 
-.news__image, .news__block {
+.news__item {
     display: inline-block;
 }
 
@@ -100,7 +100,7 @@ body {
     font-weight: lighter;
 }
 
-.rate__list, .rate__item {
+.rate__item {
     display: inline-block;
 }
 
