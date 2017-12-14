@@ -53,6 +53,7 @@ body {
 .nav {
     float: left;
     width: 193px;
+    margin-top: 47px;    
 }
 
 .content {
@@ -64,10 +65,16 @@ body {
     display: inline-block;
 }
 
+.nav__item-text {
+    margin-left: 20px;
+    margin-top: 0;
+}
+
 .maincontent__image {
     width: 901px;
     height: 299px;
     background: url("../img/photo.png") center center no-repeat;
+    margin-top: 14px;
 }
 
 
@@ -75,10 +82,18 @@ body {
     font-size: 12px;
     font-weight: bold;
     text-decoration: none;
+    margin-top: 30px;
+}
+
+
+
+.nav__item:first-child {
+    margin-top: 0px;
 }
 
 .caption {
     font-size: 49px;
+    margin-top: 16px;
 }
 
 .news__image, .news__block {
@@ -104,6 +119,10 @@ body {
     font-weight: lighter;
 }
 
+.rates .rate__list {
+    text-align: center;
+}
+
 .rate__item {
     display: inline-block;
     width: 249px;
@@ -120,6 +139,7 @@ body {
     font-weight: lighter;
 }
 
+
 .rate__item-price {
     font-size: 53.89px;
 }
@@ -129,4 +149,9 @@ body {
     height: 72px;
     width: 72px;
     border-radius: 50%;
+    margin: auto;    
+}
+
+.rate__item-icon img {
+    margin-top: 21px;
 }
