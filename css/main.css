@@ -106,6 +106,7 @@ body {
 
 .rate__item {
     display: inline-block;
+    width: 249px;
 }
 
 .rate__item-title {
