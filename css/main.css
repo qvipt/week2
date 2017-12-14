@@ -50,10 +50,6 @@ body {
     text-decoration: underline;
 }
 
-.nav__item-icon, .nav__item-text {
-    display: inline-block;
-}
-
 .nav {
     float: left;
     width: 193px;
@@ -61,7 +57,11 @@ body {
 
 .content {
     float: left;
-    width: 908px;
+    width: 907px;
+}
+
+.nav__item-icon, .nav__item-text {
+    display: inline-block;
 }
 
 .maincontent__image {
@@ -81,12 +81,8 @@ body {
     font-size: 49px;
 }
 
-.news__image, .news__block{
+.news__item, news__block {
     display: inline-block;
-}
-
-.news__item{
-    width: 100%;
 }
 
 .news__date {
@@ -108,7 +104,7 @@ body {
     display: inline-block;
 }
 
-.rate__itme-title {
+.rate__item-title {
     font-size: 10.78px;
     font-weight: bold;
 }
