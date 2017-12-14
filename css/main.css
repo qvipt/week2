@@ -81,8 +81,12 @@ body {
     font-size: 49px;
 }
 
-.news__item {
+.news__image, .news__block {
     display: inline-block;
+}
+
+.news__block {
+    width: 400px;
 }
 
 .news__date {
