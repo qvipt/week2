@@ -62,12 +62,16 @@ body {
 }
 
 .nav__item-icon, .nav__item-text {
-    display: inline-block;
+    float: left;
+}
+
+.nav__item-icon {
+    width: 24px;
 }
 
 .nav__item-text {
     margin-left: 20px;
-    margin-top: 0;
+    margin-top: 4px;
 }
 
 .maincontent__image {
@@ -82,7 +86,7 @@ body {
     font-size: 12px;
     font-weight: bold;
     text-decoration: none;
-    margin-top: 30px;
+    margin-top: 30px;    
 }
 
 
@@ -121,6 +125,7 @@ body {
 
 .rates .rate__list {
     text-align: center;
+    margin-top: 11px;    
 }
 
 .rate__item {
@@ -132,11 +137,31 @@ body {
 .rate__item-title {
     font-size: 10.78px;
     font-weight: bold;
+    margin-top: 34px;
 }
 
-.rate__item-desc, .rate__item-desc-lis {
+.rate__item-list :first-child{
+    list-style-type: none;
+    text-align: center;
+    line-height: 30px;
+}
+
+.rate__item-list {
     font-size: 18px;
     font-weight: lighter;
+    margin-top: 26px;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.rate__item-list-item :first-child{
+    margin-left: 0px;  
+}
+
+.rate__item-list-item {
+    margin-top: 18px;    
+    text-align: left;  
+    margin-left: 24px;  
 }
 
 
@@ -149,7 +174,8 @@ body {
     height: 72px;
     width: 72px;
     border-radius: 50%;
-    margin: auto;    
+    margin: auto; 
+    margin-top: 44px;   
 }
 
 .rate__item-icon img {
