@@ -97,15 +97,29 @@ body {
 
 .caption {
     font-size: 49px;
-    margin-top: 16px;
+    margin-top: 58px;
+}
+
+.news__list {
+    margin-top: 58px;
+}
+
+.news__item {
+    margin-bottom: 30px; 
 }
 
 .news__image, .news__block {
     display: inline-block;
 }
 
+.news__image {
+    margin-left: 5px;
+    margin-right: 21px;
+}
+
 .news__block {
     width: 700px;
+    vertical-align: top;
 }
 
 .news__date {
@@ -116,11 +130,13 @@ body {
 .news__title {
     font-size: 18px;
     font-weight: bold;
+    margin-top: 13px;
 }
 
 .news__text {
     font-size: 18px;
     font-weight: lighter;
+    margin-top: 22px;
 }
 
 .rates .rate__list {
@@ -131,8 +147,16 @@ body {
 .rate__item {
     display: inline-block;
     width: 249px;
-    text-align: center;    
+    text-align: center;  
+    vertical-align: top;  
 }
+
+.rate__item:hover {
+    border: 1px solid;
+    border-color: red;
+    box-sizing: border-box;    
+} 
+
 
 .rate__item-title {
     font-size: 10.78px;
@@ -140,10 +164,9 @@ body {
     margin-top: 34px;
 }
 
-.rate__item-list :first-child{
-    list-style-type: none;
-    text-align: center;
-    line-height: 30px;
+.rate__item-desc {
+    width: 184px;
+    margin-left: 33px;
 }
 
 .rate__item-list {
@@ -151,22 +174,19 @@ body {
     font-weight: lighter;
     margin-top: 26px;
     list-style-type: disc;
-    list-style-position: inside;
-}
-
-.rate__item-list-item :first-child{
-    margin-left: 0px;  
+    list-style-position: inside;    
 }
 
 .rate__item-list-item {
     margin-top: 18px;    
     text-align: left;  
-    margin-left: 24px;  
+    margin-left: 30px;  
 }
 
 
 .rate__item-price {
     font-size: 53.89px;
+    margin-top: 35px;
 }
 
 .rate__item-icon {
@@ -180,4 +200,75 @@ body {
 
 .rate__item-icon img {
     margin-top: 21px;
+}
+
+.page__list, .pages__info, .page__item {
+    display: inline-block;
+}
+
+.news__pages {
+    text-align: center;
+}
+
+.footer {
+    background: #4b73b5;
+}
+
+.footer .container {
+    padding: 20px;
+}
+
+.footer__left, .footer__right, .footer__center {
+    float: left;
+    width: 33.3%;
+}
+
+.footer__left {
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.footer__left-link {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.footer__center {
+    text-align: center;
+}
+
+.footer__right {
+    text-align: right;
+}
+
+.social__title {
+    font-weight: bold;
+    color: #ffffff;    
+}
+
+.social__block {
+    margin-top: 11px;
+    margin-right: 23px;
+}
+
+.social__icon {
+    height: 20px;
+    width: 20px;
+    background: #d2def3;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.social__icon:hover {
+    background: white;
+}
+
+.social__icon-img {
+    margin-right: 5px;
 }
