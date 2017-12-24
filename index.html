@@ -7,13 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Главная страница</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300i,400,700&amp;subset=cyrillic" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
     <div class="wrapper">
-        <div class="header">
+        <header class="header">
             <div class="container clearfix">
                 <div class="header__left">
                     <a href="#" class="logo">
@@ -21,48 +20,48 @@
                     </a>
                 </div>
                 <div class="header__right">
-                    <div class="contacts">
+                    <address class="contacts">
                         <a href="tel:88000039210" class="contacts__phone">8 (800) 00 392 10</a>
                         <div class="contacts__schedule">График работы</div>
-                    </div>
+                    </address>
                 </div>
             </div>
-        </div>
+        </header>
         <div class="maincontent">
             <div class="container clearfix">
-                <div class="nav">
-                    <ul class="nav__list">
-                        <li class="nav__item clearfix">
-                            <a href="#" class="nav__item-link">
-                                <div class="nav__item-icon">
-                                    <img src="./img/mainicon.png">
-                                </div>
-                                <div class="nav__item-text">ГЛАВНАЯ</div>
-                            </a>
-                        </li>
-                        <li class="nav__item  clearfix">
-                            <a href="#" class="nav__item-link">
-                                <div class="nav__item-icon">
-                                    <img src="./img/feedicon.png">
-                                </div>
-                                <div class="nav__item-text">ОТЗЫВЫ</div>
-                            </a>
-                        </li>
-                        <li class="nav__item  clearfix">
-                            <a href="#" class="nav__item-link">
-                                <div class="nav__item-icon">
-                                    <img src="./img/teamicon.png">
-                                </div>
-                                <div class="nav__item-text">ЭКИПАЖ</div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="content">
+                <aside class="sidebar">
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item clearfix">
+                                <a href="#" class="nav__item-link">
+                                    <div class="nav__item-icon">
+                                        <img src="./img/mainicon.png">
+                                    </div>
+                                    <div class="nav__item-text">ГЛАВНАЯ</div>
+                                </a>
+                            </li>
+                            <li class="nav__item  clearfix">
+                                <a href="./reviews.html" class="nav__item-link">
+                                    <div class="nav__item-icon">
+                                        <img src="./img/feedicon.png">
+                                    </div>
+                                    <div class="nav__item-text">ОТЗЫВЫ</div>
+                                </a>
+                            </li>
+                            <li class="nav__item  clearfix">
+                                <a href="#" class="nav__item-link">
+                                    <div class="nav__item-icon">
+                                        <img src="./img/teamicon.png">
+                                    </div>
+                                    <div class="nav__item-text">ЭКИПАЖ</div>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </aside>
+                <main class="content">
                     <div class="maincontent__image"></div>
-
-                    <div class="rates">
+                    <section class="rates">
                         <h1 class="caption">Тарифы</h1>
                         <ul class="rate__list">
                             <li class="rate__item">
@@ -106,15 +105,15 @@
                                 <div class="rate__item-price">$99</div>
                             </li>
                         </ul>
-                    </div>
-                    <div class="news">
+                    </section>
+                    <section class="news">
                         <h1 class="caption">Последние новости</h1>
                         <ul class="news__list">
                             <li class="news__item">
                                 <div class="news__image">
                                     <img src="./img/news_img1.png" alt="news image 1">
                                 </div>
-                                <div class="news__block">
+                                <article class="news__block">
                                     <div class="news__date">12.10.2016</div>
                                     <div class="news__title">Ночные перелеты дешевле</div>
                                     <div class="news__text">
@@ -122,13 +121,13 @@
                                         разноцветными огнями, и почему-то кажется, что она наполнена удивительными людьми,
                                         спешащими далеко-далеко по очень важным делам.
                                     </div>
-                                </div>
+                                </article>
                             </li>
                             <li class="news__item">
                                 <div class="news__image">
                                     <img src="./img/news_img2.png" alt="news image 1">
                                 </div>
-                                <div class="news__block">
+                                <article class="news__block">
                                     <div class="news__date">01.02.2016</div>
                                     <div class="news__title">Путешествие в Грузию стало доступнее</div>
                                     <div class="news__text">
@@ -136,13 +135,13 @@
                                         пешеходные, автомобильные, тематические экскурсии по интересным городам и курортам
                                         Грузии. Не пропустите такую возможность!
                                     </div>
-                                </div>
+                                </ar>
                             </li>
                             <li class="news__item">
                                 <div class="news__image">
                                     <img src="./img/news_img3.png" alt="news image 1">
                                 </div>
-                                <div class="news__block">
+                                <article class="news__block">
                                     <div class="news__date">22.12.2015</div>
                                     <div class="news__title">Детские авиабилеты доступны для бизнес-класса</div>
                                     <div class="news__text">
@@ -151,10 +150,10 @@
                                         специальным питанием и другими услугами на борту лайнера.
                                     </div>
 
-                                </div>
+                                </article>
                             </li>
                         </ul>
-                        <div class="news__pages">
+                        <nav class="news__pages">
                             <div class="pages__info">Страница 1 из 7</div>
                             <div class="pages__direction-btn">&lt;</div>
                             <ul class="page__list">
@@ -181,13 +180,13 @@
                                 </li>
                             </ul>
                             <div class="pages__direction-btn pages__direction-btn--active">&gt;</div>
-                        </div>
-                    </div>
-                </div>
+                        </nav>
+                    </section>
+                </main>
             </div>
         </div>
     </div>
-    <div class="footer">
+    <footer class="footer">
         <div class="container clearfix">
             <div class="footer__left">
                 Сделано с любовью и старанием
@@ -225,7 +224,7 @@
             </div>
 
         </div>
-    </div>
+    </footer>
 </body>
 
 </html>
