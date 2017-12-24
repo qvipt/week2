@@ -1,0 +1,29 @@
+.nav {
+    float: left;
+    width: 193px;
+    margin-top: 47px;    
+}
+
+.nav__item-icon, .nav__item-text {
+    float: left;
+}
+
+.nav__item-icon {
+    width: 24px;
+}
+
+.nav__item-text {
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+.nav__item {
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 30px;    
+}
+
+.nav__item:first-child {
+    margin-top: 0px;
+}

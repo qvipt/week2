@@ -1,0 +1,16 @@
+.content {
+    float: left;
+    width: 907px;
+}
+
+.maincontent__image {
+    width: 901px;
+    height: 299px;
+    background: url("./../../img/photo.png") center center no-repeat;
+    margin-top: 14px;
+}
+
+.caption {
+    font-size: 49px;
+    margin-top: 58px;
+}

@@ -1,0 +1,38 @@
+.page__list, .pages__info, .page__item, .pages__direction-btn {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pages__info {
+    font-weight: lighter;
+    font-size: 14px;
+    margin-right: 19px;
+    color: #737272;
+}
+
+.page__item-link {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    padding-top: 5px;    
+    width: 25px; 
+    height: 25px;
+    color: black;   
+    border-radius: 15%;    
+}
+.page__item-link--active {
+    color: white;   
+    background: #4b73b5;    
+}
+.pages__direction-btn {
+    color: #bdbcbc;
+}
+
+.pages__direction-btn--active {
+    color: #262323;
+}
+
+.news__pages {
+    text-align: center;
+}

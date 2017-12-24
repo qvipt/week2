@@ -1,0 +1,30 @@
+.header {
+    background: #4b73b5;
+}
+
+.header .container {
+    padding: 20px;
+}
+
+.header__left, .header__right {
+    float: left;
+    width: 50%;
+}
+
+.header__right {
+    text-align: right;
+}
+
+.contacts__phone {
+    color: #ffffff;
+    height: 21px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contacts__schedule {
+    color: rgba(255, 255, 255, .7);
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+}

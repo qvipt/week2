@@ -1,0 +1,62 @@
+.rates .rate__list {
+    text-align: center;
+    margin-top: 11px;    
+}
+
+.rate__item {
+    display: inline-block;
+    width: 249px;
+    text-align: center;  
+    vertical-align: top;  
+}
+
+.rate__item:hover {
+    border: 1px solid;
+    border-color: red;
+    box-sizing: border-box;    
+} 
+
+
+.rate__item-title {
+    font-size: 10.78px;
+    font-weight: bold;
+    margin-top: 34px;
+}
+
+.rate__item-desc {
+    width: 184px;
+    margin-left: 33px;
+}
+
+.rate__item-list {
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 26px;
+    list-style-type: disc;
+    list-style-position: inside;    
+}
+
+.rate__item-list-item {
+    margin-top: 18px;    
+    text-align: left;  
+    margin-left: 30px;  
+}
+
+
+.rate__item-price {
+    font-size: 53.89px;
+    margin-top: 35px;
+}
+
+.rate__item-icon {
+    background: #4b73b5;
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+    margin: auto; 
+    margin-top: 44px;   
+}
+
+.rate__item-icon img {
+    margin-top: 21px;
+}
