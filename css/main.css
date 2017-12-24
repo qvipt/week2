@@ -202,8 +202,41 @@ body {
     margin-top: 21px;
 }
 
-.page__list, .pages__info, .page__item {
+.page__list, .pages__info, .page__item, .pages_direction_btn {
     display: inline-block;
+    vertical-align: middle;
+}
+
+.pages__info {
+    font-weight: lighter;
+    font-size: 14px;
+    margin-right: 19px;
+    color: #737272;
+}
+
+
+.page__item-link {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    padding-top: 7px;    
+    width: 25px; 
+    height: 25px;
+    color: black;   
+    border-radius: 15%;    
+}
+.page__item-link--active {
+    color: white;   
+    background: #4b73b5;    
+}
+
+.pages_direction_btn {
+    color: #bdbcbc;
+}
+
+.pages_direction_btn--active {
+    color: #262323;
 }
 
 .news__pages {
@@ -212,6 +245,7 @@ body {
 
 .footer {
     background: #4b73b5;
+    margin-top: 60px;
 }
 
 .footer .container {
