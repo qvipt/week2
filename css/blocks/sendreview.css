@@ -1,0 +1,58 @@
+.sendreviewwrapper {
+    text-align: center;
+}
+
+.sendreview {
+    display: inline-block;
+    height: 430px;
+    width: 700px;
+    background: #f5f5f5;
+    margin-top: 58px;
+}
+
+.sendreview__inner {
+    margin: 70px;
+}
+
+.form__row {
+    width: 100%;
+    text-align: left;
+    margin-top: 22px;
+}
+
+.form__imput-elem {
+    float: left;
+    width: 50%;
+}
+
+.form__field-title, .form__input {
+    text-align: left;
+    display: block;
+}
+
+.form__field-title {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.form__input {
+    width: 270px;
+    height: 46px;
+}
+
+.form__big-text {
+    width: 560px;
+    height: 90px;
+}
+
+.form__radio-controls-trigger, .form__radio, .form__radio-controls-trigger-title{
+    display: inline-block;
+}
+
+.form__radio-controls-btns, .form__send-btn, .form__radio-controls {
+    display: inline-block;
+}
+
+.form__radio-controls, .form__send-btn {
+    width: 50%;
+}
