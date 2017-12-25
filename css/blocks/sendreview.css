@@ -36,7 +36,7 @@
     display: block;
 }
 
-.form__field-title {
+.form__field-title, .form__radio-controls-title {
     font-size: 14px;
     font-weight: lighter;
 }
@@ -63,3 +63,4 @@
 .form__radio-controls, .form__send-btn {
     width: 50%;
 }
+
