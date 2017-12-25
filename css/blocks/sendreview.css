@@ -20,10 +20,16 @@
     margin-top: 22px;
 }
 
-.form__imput-elem {
+.form__imput-elem-one {
     float: left;
     width: 50%;
 }
+
+.form__imput-elem-two {
+    float: right;
+    width: 48%;
+}
+
 
 .form__field-title, .form__input {
     text-align: left;
@@ -37,7 +43,8 @@
 
 .form__input {
     width: 270px;
-    height: 46px;
+    height: 47px;
+    border: 0;
 }
 
 .form__big-text {
