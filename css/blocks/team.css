@@ -20,8 +20,12 @@
 .team__item {
     display: inline-block;
     text-align: center;
-    vertical-align: top;
-    width: 273px;    
+    vertical-align: top; 
+    width: 33%; 
+}
+
+.employer {
+    width: 273px;
 }
 
 .team__item_-fio {
