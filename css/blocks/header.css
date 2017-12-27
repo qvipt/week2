@@ -27,4 +27,45 @@
     font-size: 14px;
     font-weight: bold;
     text-decoration: underline;
+    position: relative;
 }
+
+.dropdown {
+    width: 163px;
+    background: white;
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translateX(-100%);
+    z-index: 10;
+}
+
+.triangle {
+    border-top: 15px solid red;
+    border-right: 15px solid white;
+    z-index: 11;
+}
+
+.dropdown__sсhedule {
+    font-size: 14px;
+    font-weight: bold;
+    color: #1c5bc3;
+    font-style: normal;
+    padding-top: 17px;
+}
+
+.dropdown__break {
+    font-size: 14px;
+    font-weight: lighter;
+    color: black;
+    font-style: normal;
+    padding-top: 12px;
+}
+
+.dropdown__dropblock {
+    height: 70px;
+    border-radius: 2%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+

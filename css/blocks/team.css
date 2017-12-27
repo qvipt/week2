@@ -8,13 +8,9 @@
     left: 0;
     height: 160px;
     width: 160px;
+    border: 1px solid red;
     background: url("./img/team/overlay.png") center center no-repeat;
     /* opacity: .6; */
-    display: none;    
-}
-
-.team__item-photo:before:hover {
-    display: block;
 }
 
 .team__item {
