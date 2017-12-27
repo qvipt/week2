@@ -9,7 +9,7 @@
     height: 160px;
     width: 160px;
     border: 1px solid red;
-    background: url("./img/team/overlay.png") center center no-repeat;
+    /* background: url("./img/team/overlay.png") center center no-repeat; */
     /* opacity: .6; */
 }
 
