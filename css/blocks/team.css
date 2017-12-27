@@ -1,16 +1,22 @@
 .team__item-image {
     position: relative;
+    border: 1px solid red;
 }
 
 .team__item-image:before {
     position: absolute;
+    content: "";
     top: 0;
-    left: 0;
+    left: -9999px;
     height: 160px;
     width: 160px;
-    border: 1px solid red;
-    /* background: url("./img/team/overlay.png") center center no-repeat; */
-    /* opacity: .6; */
+    background: url("./../../img/team/overlay.png") center center no-repeat;
+    opacity: .6;
+    transform: translateX(-50%)
+}
+
+.team__item-image:hover:before {
+    left: 50%;
 }
 
 .team__item {

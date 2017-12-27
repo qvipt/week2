@@ -22,6 +22,14 @@
     text-decoration: none;
 }
 
+.contacts__schedule-text {
+    color: rgba(255, 255, 255, .7);
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+    position: relative;  
+    cursor: pointer;
+}
 
 .dropdown {
     width: 163px;
@@ -29,26 +37,17 @@
     text-align: center;
     position: absolute;
     top: 100%;
-    /* left: 100%; */
+    left: 100%;
     transform: translateX(-100%);
     z-index: 10;
     margin-top: 15px;
-    left: -999px;
+    /* left: -999px; */
+    display: block;
 }
 
-.contacts__schedule {
-    color: rgba(255, 255, 255, .7);
-    font-size: 14px;
-    font-weight: bold;
-    text-decoration: underline;
-    position: relative;
-    &:hover {
-        .dropdown {
-            left: 100%;
-        }
-    }
-}
-
+/* .contacts__schedule-text:hover .dropdown {
+    left: 100%;    
+} */
 
 .triangle {
     border-top: 15px solid transparent;

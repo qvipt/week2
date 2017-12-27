@@ -8,12 +8,12 @@
     width: 249px;
     text-align: center;  
     vertical-align: top;  
+    border: 2px solid;
+    border-color: white;
 }
 
 .rate__item:hover {
-    border: 1px solid;
-    border-color: red;
-    box-sizing: border-box;    
+    border-color: #e8e9ed;    
 } 
 
 

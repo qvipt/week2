@@ -21,6 +21,10 @@ body {
     line-height: 1.42;
 }
 
+* {
+    box-sizing: border-box;        
+}
+
 .wrapper {
     overflow: hidden;
     min-width: 1140px;

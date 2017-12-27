@@ -1,0 +1,41 @@
+.intro {
+    height: 100%;
+    background: url('./../../img/intro.png') center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.centralblock {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.link--into {
+    height: 43px;
+    width: 206px;
+    border: 1px solid #1c5bc3;
+    border-radius: 5%;
+    font-size: 12px;
+    font-weight: bold;
+    display: block; 
+    padding-top: 15px;
+    padding-left: 15px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    margin-top: 40px;
+    position: relative;
+}
+
+.link--into:after {
+    background: url('./../../img/into_icon.png') center no-repeat;    
+    width: 15px;
+    height: 14px;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 88%;
+}
+
