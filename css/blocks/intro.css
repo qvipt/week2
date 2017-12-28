@@ -27,6 +27,7 @@
     text-decoration: none;
     margin-top: 40px;
     position: relative;
+    text-align: left;
 }
 
 .link--into:after {
