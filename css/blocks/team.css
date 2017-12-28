@@ -1,6 +1,5 @@
 .team__item-image {
     position: relative;
-    border: 1px solid red;
 }
 
 .team__item-image:before {
@@ -72,11 +71,66 @@
     position: relative;
 }
 
-.partners__logo {
+.logo {
+    height: 100%;
+    width: 100%;
     position: absolute;
-    transform: translateX(-50%) translateY(-50%);
-}
+} 
 
 .secondrow {
+    margin-top: 63px;
+}
+
+.partners1 {
+    background: url('./../../img/partners/logo1.png') center no-repeat;
+}
+
+.partners1:hover {
+  background: url('./../../img/partners/logo1hover.png') center no-repeat;    
+}
+
+
+.partners2 {
+    background: url('./../../img/partners/logo2.png') center no-repeat;
+}
+
+.partners2:hover {
+  background: url('./../../img/partners/logo2hover.png') center no-repeat;    
+}
+
+
+.partners3 {
+    background: url('./../../img/partners/logo3.png') center no-repeat;
+}
+
+.partners3:hover {
+  background: url('./../../img/partners/logo3.png') center no-repeat;    
+}
+
+.partners4 {
+    background: url('./../../img/partners/logo4.png') center no-repeat;
+}
+
+.partners4:hover {
+  background: url('./../../img/partners/logo4hover.png') center no-repeat;    
+}
+
+.partners5 {
+    background: url('./../../img/partners/logo5.png') center no-repeat;
+}
+
+.partners5:hover {
+  background: url('./../../img/partners/logo5hover.png') center no-repeat;    
+}
+
+.partners6 {
+    background: url('./../../img/partners/logo6.png') center no-repeat;
+}
+
+.partners6:hover {
+  background: url('./../../img/partners/logo6hover.png') center no-repeat;    
+}
+
+.partners__item:nth-child(n+4) {
     margin-top: 63px;
 }
