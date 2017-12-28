@@ -40,6 +40,6 @@
     left: 88%;
 }
 
-a:visited {
+a.link--into:visited {
     color: #1c5bc3;
 }

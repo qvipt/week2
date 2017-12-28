@@ -24,6 +24,11 @@
     text-align: center;
     vertical-align: top; 
     width: 33%; 
+    margin-bottom: 46px;
+}
+
+.team__item:nth-child(n+4) {
+    margin-bottom: 0;
 }
 
 .employer {
@@ -50,12 +55,6 @@
     font-weight: lighter;
     text-align: center;
 }
-
-.secondteamrow {
-    margin-top: 46px;
-}
-
-
 
 .partners__list {
     width: 100%;
